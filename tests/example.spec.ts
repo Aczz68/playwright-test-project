@@ -1,7 +1,8 @@
 import { test, expect } from "@playwright/test";
 
-// 默认自带两个测试
-
+// test()
+// 第一个参数是字符串用来描述测试
+// 第二个参数是函数,用来执行测试
 test("has title", async ({ page }) => {
   await page.goto("https://playwright.dev/");
 

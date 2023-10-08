@@ -28,11 +28,17 @@ npm playwright show-report #启动网络服务器,并在浏览器中打开报告
 - 步骤二:Commit到缓存
   - 选择私有或公有(private(私有)&public(公共))
 - 步骤三:打开github
+  - 进行报告的下载
+![](./img/2.png)
 
 
+### 下载playwright扩展
+
+1. 搜索[playwright Test for VSCode]
+
+![](./img/3.png)
 
 ## 文件夹介绍
-
 
 1. [tests]文件中包含测试文件
 2. [playwright.config.ts]
@@ -40,9 +46,21 @@ npm playwright show-report #启动网络服务器,并在浏览器中打开报告
    2. 设置可加载的浏览器
 3. [github]github操作使用,便于github上执行测试(多人测试)
 
-
-
 ## vscode
 
 1. Playwright Test for VSCode(安装TS的扩展)
 
+
+## 注意
+
+await 使用可允许暂停测试的执行,知道特定条件得到满足
+
+
+## 英文
+
+### example 预期
+
+可预期页面应该有一个特定的标题
+
+
+### spec 规格
