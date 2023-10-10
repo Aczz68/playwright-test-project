@@ -10,6 +10,8 @@ import { defineConfig, devices } from "@playwright/test";
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  // 设置超时的时间未 5 s
+  timeout: 5 * 1000,
   // 指向的测试文件
   testDir: "./tests",
   /* Run tests in files in parallel */
