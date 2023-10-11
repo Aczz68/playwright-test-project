@@ -1,12 +1,4 @@
-# 
-
-- 主要概念
-
-- 安装
-
-- 配置
-
-- 使用情况
+#
 
 ## 模板演示
 
@@ -14,21 +6,19 @@
 
 ### 启动
 
-
+- REST Client
 
 ## 英文
 
 ```js
-
 // arrange(筹备)
 // act(行为)
 // assert(断言)
-
 ```
 
 ## 注意
 
-### 将playwright 嵌入到程序相同代码库有的好处
+### 将 playwright 嵌入到程序相同代码库有的好处
 
 #### 优势
 
@@ -36,4 +26,8 @@
 
 ## 英文
 
-1. Integrate Playwright into a Web Application(将剧作家集成到Web应用程序中)
+1. Integrate Playwright into a Web Application(将剧作家集成到 Web 应用程序中)
+
+## 课后
+
+1. 了解 class 中 get 的作用
